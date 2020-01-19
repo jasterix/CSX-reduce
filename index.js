@@ -1,15 +1,15 @@
-let arr1 = [8,12,90,65,1,0,768,8,4]
-let arr2 = [34,3,0,45,23,67,1,67,09]
-let arr3 = [10,23]
-let fruits = ['banana', 'cherry', 'orange', 'apple', 'cherry', 'orange', 'apple', 'banana', 'cherry', 'orange', 'fig' ]
+let arr1 = [8,5, 12,90,65,1,0,768,8,4]
+let arr2 = [34,3,0,45,23,67,1,5, 67,09]
+let arr3 = [10,23,5]
+// let fruits = ['banana', 'cherry', 'orange', 'apple', 'cherry', 'orange', 'apple', 'banana', 'cherry', 'orange', 'fig' ]
 
 //------------------------- CSX CHALLENGES----------
 //------------------------- CSX CHALLENGES----------
 //------------------------- CSX CHALLENGES----------
 
 const reduces = (array) => {
-return arr1.reduce((acc, num) => {
-  console.log(acc, num)
+return array.reduce((acc, num) => {
+  // console.log(acc, num)
   return acc + num
   })
 }
@@ -28,7 +28,7 @@ const intersection = (input) => {
 // const arr1 = [5, 10, 15, 20];
 // const arr2 = [15, 88, 1, 5, 7];
 // const arr3 = [1, 10, 15, 5, 20];
-// console.log(intersection([arr1, arr2, arr3])); // should log: [5, 15]
+console.log(intersection([arr1, arr2, arr3])); // should log: [5, 15]
 
 // ----------------------------------------------------------
 // ----------------------------------------------------------
@@ -225,4 +225,4 @@ let x;
 
 // fib(5)
 
-[1,2,3,4,5,].slice(0,2)
+// [1,2,3,4,5,].slice(0,2)
